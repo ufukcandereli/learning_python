@@ -1,4 +1,4 @@
-# BMI' ı hesapladıktan sonra kişinin kilosu hakkında bilgi veren kod
+# BMI' ı hesapladıktan sonra kisinin kilosu hakkında bilgi veren kod
 
 print("I would like to learn your height and weight for calculating your BMI and inform you about your situation. ")
 Height = float(input("What's your height?"))
