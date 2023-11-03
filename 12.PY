@@ -1,4 +1,4 @@
-# Tas, Kagıt, Makas Oyunu
+# pc ile tas kagıt makas vs si attıran kod
 
 import random
 
