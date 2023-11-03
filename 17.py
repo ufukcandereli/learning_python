@@ -1,4 +1,4 @@
-# rastgele şifreler oluşturan kod
+# rastgele sifreler oluşturan kod
 
 import random
 
