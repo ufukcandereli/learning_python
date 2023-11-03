@@ -1,4 +1,4 @@
-# Amiral battı tadında bişeyler ( biraz amele işi oldu nasıl kısaltırım bilmem)
+# Amiral battı tadında biseyler ( biraz amele isi oldu nasıl kısaltırım bilmem)
 
 line1 = ["⬜️", "️⬜️", "️⬜️"]
 line2 = ["⬜️", "⬜️", "️⬜️"]
