@@ -1,4 +1,4 @@
-# Yazı mı Tura mı
+# Yazı mı Tura mı oynatan kod
 
 import random
 
