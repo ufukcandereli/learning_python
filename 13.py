@@ -1,4 +1,4 @@
-# for loop ile boyları bilinen kişilerin boy ortalamasını alma
+# for loop ile boyları bilinen kisilerin boy ortalamasını alan kod
 
 n = int(input("How many values will you enter?: "))
 
