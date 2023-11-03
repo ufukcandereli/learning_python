@@ -1,4 +1,4 @@
-# Seçilen sayıya kadar olan tüm çift sayıların toplamı
+# Seçilen sayıya kadar olan tüm çift sayıların toplamını veren kod
 
 print("Enter a number and ı will sum all the even numbers from 0 to the one you enter: ")
 the_one = int(input())
