@@ -44,8 +44,6 @@ all_cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 user_cards = []
 
 you_busted = False
-if sum(user_cards) > 21:
-    you_busted = True
 
 while len(user_cards) < 2:
     random_card = random.choice(all_cards)
@@ -74,3 +72,10 @@ while not you_busted:
         user_cards.append(random_card)
         print(f"You drew {user_cards[-1]}.")
         print(f"Your cards are {sum(user_cards)} in total.")
+        if sum(user_cards) > 21:
+            you_busted = True
+        if you_busted:
+            print(f"Croupier's second card is {croupier_cards[1]}.")
+            print(f"Croupier's cards are {sum(croupier_cards)} in total.")
+            who_is_winning()
+            break
