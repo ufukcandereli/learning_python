@@ -1,4 +1,4 @@
-""" FizzBuzz diye bi oyunu görselleştiren kod: 1 den 100 e kadar sayıyosun; 3 ün katlarında Fizz, 5 in katlarında Buzz 15 in katlarında
+""" FizzBuzz diye bi oyun: 1 den 100 e kadar sayıyosun; 3 ün katlarında Fizz, 5 in katlarında Buzz 15 in katlarında
     FizzBuzz diyosun """
 
 for x in range(1, 101):
