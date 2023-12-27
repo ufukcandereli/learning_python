@@ -18,6 +18,9 @@ def who_is_winning():
         must_draw = random.choice(all_cards)
         croupier_cards.append(must_draw)
         print(f"Croupier drew another card. It is {croupier_cards[-1]} and It made {sum(croupier_cards)} in total.")
+    if sum(user_cards) == 21 and sum(croupier_cards) == 21:
+        print("Draw!")  if sum(user_cards) == 21 and sum(croupier_cards) == 21:
+        print("Draw!")
     if sum(user_cards) > 21 and sum(croupier_cards) > 21:
         print("Draw!")
     elif sum(user_cards) > 21 > sum(croupier_cards):
