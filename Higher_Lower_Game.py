@@ -304,6 +304,19 @@ data = [
 ]
 
 
+def game():
+    print("\nWelcome to the higher/lower game!\n")
+    while True:
+        streak = play_game()
+        print(f"You are wrong! You made {streak} streak.\n")
+        play_again = input("Do you want to play again? (yes/no): \n").lower()
+        if play_again == 'no':
+            print("Goodbye!")
+            break
+        elif play_again == 'yes':
+            game()
+
+
 def play_game():
     streak = 0
     while True:
@@ -322,19 +335,6 @@ def play_game():
             break
 
     return streak
-
-
-def game():
-    print("\nWelcome to the higher/lower game!\n")
-    while True:
-        streak = play_game()
-        print(f"You are wrong! You made {streak} streak.\n")
-        play_again = input("Do you want to play again? (yes/no): \n").lower()
-        if play_again == 'no':
-            print("Goodbye!")
-            break
-        elif play_again == 'yes':
-            game()
 
 
 game()
